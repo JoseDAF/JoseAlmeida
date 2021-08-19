@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+
+
+*::selection {
+    background-color: #7979DA;
+}
+
+body {
+    background-color: #363636;
+}
+
+
+.h1s{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-family: Lexend;
+    font-weight: 300;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+}
+
+div #imagen1, #imagen2, #imagen3{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    height: 260px;
+    width: 350px;
+}
+
+#imagen1 {
+  animation: bounceIn;
+  animation-duration: 2s;
+  animation-delay: 0ms;
+}
+
+
+
+#imagen2 {
+  animation: bounceIn;
+  animation-duration: 2600ms;
+  animation-delay: 0ms;
+}
+
+/*-------------------------------------------MÁS IMAGENES-------------------------------------------*/
+ div .more_images_h1{
+    display: inline;
+    font-size: 300%;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    transition-property: border, border-radius, color;
+    transition-duration: 200ms;
+
+}
+
+.masimagenes_div a {
+    text-decoration: underline white;
+}
+
+.more_images_h1:hover {
+    border: 3px solid #6565b6;
+    border-radius: 2px;
+    color: rgb(121, 121, 218)
+}
+
+
+/*--------------------------------------------------------NAV--------------------------------------------------------*/
+
+div nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition-property: color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover a {
+    color: rgb(121, 121, 218);
+}
+
+
+
+
+
+div nav ul li {
+    margin: 15px;
+    display: inline-block;
+}
+
+div nav ul {
+    text-align: center;
+}
+
+
+div nav ul li{
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover {
+
+    background-color: #505050;
+    border-radius: 15px;
+}
+
+
+
+/*CONFIGURACION DE IMAGENES*/
+
+/*IMAGEN 1*/
+
+#imagen1 {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+#imagen1:hover {
+    transform: rotate(-4deg);
+}
+
+/*IMAGEN 2*/
+
+#imagen2 {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+#imagen2:hover {
+    transform: rotate(4deg);
+}
+
+#imagen3 {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+#imagen3:hover {
+    transform: rotate(-4deg);
+}
+
+#imagen3 {
+    animation: bounceIn;
+    animation-duration: 2s;
+    animation-delay: 0ms;
+  }
+/*------------------------------------------------------MEDIA QUERIES------------------------------------------------------*/
+
+
+@media (max-width: 1025px) {
+    
+    div nav ul li a {
+        font-size: 160%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    }
+    
+    
+}
+
+@media (max-width: 540px) {
+    div nav ul li a {
+        font-size: 100%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 420px) {
+
+    .spotify-div h1 {
+        font-size: 100%;
+    }
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.9% 1% 2.9%;
+    }
+    
+
+}
+
+@media (max-width: 400px) {
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1% 1% 1%;
+    }
+    
+    
+
+}
+
+
+@media (max-width: 380px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.2% 1% 2.2%;
+    }
+    
+
+    
+}
+
+
+@media (max-width: 330px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% .4% 1% .4%;
+    }
+    
+
+}
+
+@media (max-width: 281px) {
+
+    div nav ul li a {
+        font-size: 61%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1%;
+    }
+    
+}
