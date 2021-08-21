@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+
+/*SI ALGUIEN A PARTE DEL CREADOR DE ESTA PAGINA (osea yo xd) LE INVITO A QUE ME SIGA A MI TWITTER: https://twitter.com/Jose_Almeida13y*/*/
+
+*::selection {
+    background-color: rgb(121, 121, 218);
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+
+#playlist_public_div h5 {
+    font-size: 100%;
+    text-align: center !important;
+    font-family: Lexend;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+
+  }
+
+
+  div #playlist_public {
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition-property: color;
+    transition-duration: 300ms;
+  }
+
+  div #playlist_public:hover {
+    color: rgb(121, 121, 218);
+    text-decoration: underline rgb(121, 121, 218);
+
+  }
+
+  div #playlist_public:active {
+    color: rgb(76, 76, 138);
+    text-decoration: underline rgb(76, 76, 138);
+
+
+  }
+
+/*<-------------------------------------------NAV---------------------------->*/
+
+div nav ul li a {
+    font-size: 120%;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    transition-property: color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover a {
+    color: rgb(121, 121, 218);
+}
+
+
+div nav ul li {
+    margin: 15px;
+    display: inline-block;
+}
+
+div nav ul {
+    text-align: center;
+}
+
+
+div nav ul li{
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover {
+
+    background-color: #c9c9c9;
+    border-radius: 15px;
+}
+
+/*-----------------------------------------SPOTIFY-----------------------------------------*/
+
+
+.spotify {
+    display: inline-block;
+    border: 10px solid #ffff;
+}
+
+.spotify-div h1 {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+
+/*------------------------------------PLAYLIST IMAGES AND TEXT------------------------------------*/
+
+.list_songs {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    background-color: #bbbbbb;
+}
+
+.list_songs img {
+    border-radius: 10px;
+    transition-property: filter;
+    transition-duration: 200ms;
+}
+
+
+.list_songs img:hover {
+    filter: brightness(80%);
+}
+
+/*---------------------------------------------------ISPY - TEXT AND IMAGES---------------------------------------------------*/
+
+.list_songs #ispy{
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #09f0c9; 
+    box-shadow: 0px 0px 10px #00bd9e;
+
+}
+
+
+
+.list_songs #ispy_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+
+.list_songs #ispy_h1:hover {
+    color: #00806a;
+    text-decoration: underline 3px #00806a;
+}
+/*--------------------------------------------------- CLOSE ISPY - Text and Images---------------------------------------------------*/
+
+
+/*-------------------------------------------do u even miss me at all? - Text and Images-------------------------------------------*/
+.list_songs #dou-even {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #76a0ee; 
+    box-shadow: 0px 0px 10px #a5bff0;
+}
+
+.list_songs #dou-even_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+.list_songs #dou-even_h1:hover {
+    color: #6485c2;
+    text-decoration: underline 3px #6485c2;
+}
+
+/*-------------------------------------------CLOSE - do u even miss me at all? - Text and Images-------------------------------------------*/
+
+/*-------------------------------------------------Beautiful - Bazzi-------------------------------------------------*/
+
+.list_songs #beautiful {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #415d83; 
+    box-shadow: 0px 0px 10px #465770;
+}
+
+
+.list_songs #beautiful_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 23.2%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+.list_songs #beautiful_h1:hover {
+    color: #5c79a5;
+    text-decoration: underline 3px #5c79a5;
+}
+/*-------------------------------------------------CLOSE Beautiful - Bazzi-------------------------------------------------*/
+
+
+
+/*-------------------------------------------------Nobody Knows - Russ-------------------------------------------------*/
+
+.list_songs #nobody {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #345367; 
+    box-shadow: 0px 0px 10px #6eafdb;
+}
+
+.list_songs #nobody_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 19.5%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+.list_songs #nobody_h1:hover {
+    color: #5180a0;
+    text-decoration: underline 3px#5180a0;
+}
+
+
+/*-------------------------------------------------CLOSE Nobody Knows - Russ-------------------------------------------------*/
+
+/*-------------------------------------------------Take Me The Church - Hozier-------------------------------------------------*/
+
+#takeme {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #ce712d; 
+    box-shadow: 0px 0px 10px #fd8b39;
+
+}
+
+#takeme_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+#takeme_h1:hover {
+    color: #e77f34;
+    text-decoration: underline 3px #e77f34;
+}
+
+/*-------------------------------------------------CLOSE Take Me The Church - Hozier-------------------------------------------------*/
+
+
+
+/*-------------------------------------------------No Idea - Don Toliver-------------------------------------------------*/
+
+#noidea {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #73a4a9; 
+    box-shadow: 0px 0px 10px #9cdbe2;
+}
+
+#noidea_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: rgb(0, 0, 0);
+    float: right;
+}
+
+#noidea_h1:hover {
+    color: #4e7074;
+    text-decoration: underline 3px #4e7074;
+}
+
+/*-------------------------------------------------CLOSE No Idea - Don Toliver-------------------------------------------------*/
+
+/*------------------------------STAY-------------------------------------*/
+
+#stay {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #73a4a9; 
+    box-shadow: 0px 0px 10px #9cdbe2;
+}
+
+#stay_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 30%;
+    color: black;
+    float: right;
+}
+
+#stay_h1:hover {
+    color: #4e7074;
+    text-decoration: underline 3px #4e7074;
+}
+
+/*------------------------------CLOSE STAY-------------------------------*/
+
+#sunflower {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #19186e; 
+    box-shadow: 0px 0px 10px #807fd4;
+}
+
+#sunflower_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 18%;
+    color: black;
+    float: right;
+}
+
+#sunflower_h1:hover {
+    color: #5958c7;
+    text-decoration: underline 3px #5958c7;
+}
+
+
+/* ------------------------------CLOSE SUNFLOWER - POST MALONE------------------------------ */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1026px) {
+    
+    div nav ul li a {
+        font-size: 160%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    }
+    
+    .list_songs img {
+        width: 30%;
+    }
+
+    .list_songs #ispy_h1 {
+        font-size: 80%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+
+    .list_songs #dou-even_h1 {
+        font-size: 80%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+
+    .list_songs #beautiful_h1 {
+        font-size: 80%;
+        margin-top: 14%;
+        margin-right: 13%;
+    }
+
+    .list_songs #nobody_h1, #takeme_h1, #noidea_h1 {
+        font-size: 80%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+    
+    .list_songs #stay_h1 {
+        font-size: 80%;
+        margin-right: 25%;
+
+    }
+
+    #sunflower_h1 {
+        margin-right: 6%;
+
+    }
+}
+
+@media (max-width: 540px) {
+    div nav ul li a {
+        font-size: 100%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    }
+    
+    .list_songs img {
+        width: 30%;
+    }
+
+    .list_songs #ispy_h1 {
+        font-size: 50%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+
+    .list_songs #dou-even_h1 {
+        font-size: 50%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+
+    .list_songs #beautiful_h1 {
+        font-size: 50%;
+        margin-top: 14%;
+        margin-right: 13%;
+    }
+
+    .list_songs #nobody_h1, #takeme_h1, #noidea_h1 {
+        font-size: 50%;
+        margin-top: 14%;
+        margin-right: 10%;
+    }
+    
+   #sunflower_h1 {
+    font-size: 50%;
+    margin-right: 2%;
+   }      
+
+}
+
+
+
+@media (max-width: 420px) {
+
+    .spotify-div h1 {
+        font-size: 100%;
+    }
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.9% 1% 2.9%;
+    }
+    
+    .list_songs img {
+        width: 42%;
+        margin-left: 30% !important;
+    }
+
+    .list_songs h1 {
+        font-size: 200%;
+    }
+    
+    .list_songs #ispy_h1 {
+        margin-right: 23%;
+    }
+
+    .list_songs #dou-even_h1 {
+        margin-right: 23%;
+    }
+
+    .list_songs #beautiful_h1 {
+        margin-right: 28%;
+    }
+
+    .list_songs #nobody_h1, #takeme_h1, #noidea_h1 {
+        margin-right: 23%;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1% 1% 1%;
+    }
+    
+    .list_songs img {
+        width: 42%;
+        margin-left: 30% !important;
+    }
+
+    .list_songs a h1 {
+        font-size: 100%;
+    }
+
+    .list_songs #ispy_h1 {
+        margin-right: 28%;
+    }
+
+    .list_songs #dou-even_h1 {
+        margin-right: 28%;
+    }
+
+    .list_songs #beautiful_h1 {
+        margin-right: 32%;
+    }
+
+    .list_songs #nobody_h1, #noidea_h1 {
+        margin-right: 28%;
+    }
+
+    .list_songs #takeme_h1 {
+        margin-right: 28%;
+    }
+
+    .spotify-div h1 {
+        font-size: 100%;
+
+    }
+    
+
+}
+
+
+@media (max-width: 380px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.2% 1% 2.2%;
+    }
+    
+    .list_songs img {
+        width: 42%;
+        margin-left: 30% !important;
+    }
+
+    .list_songs h1 {
+        font-size: 100%;
+    }
+    
+    .list_songs #ispy_h1 {
+        margin-right: 25%;
+    }
+
+    .list_songs #dou-even_h1 {
+        margin-right: 25%;
+    }
+
+    .list_songs #beautiful_h1 {
+        margin-right: 30%;
+    }
+
+    .list_songs #nobody_h1, #noidea_h1 {
+        margin-right: 25%;
+    }
+
+    .list_songs #takeme_h1 {
+        margin-right: 26%;
+    }
+
+    
+}
+
+
+@media (max-width: 330px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% .4% 1% .4%;
+    }
+    
+    .list_songs img {
+        width: 42%;
+        margin-left: 30% !important;
+    }
+
+    .list_songs h1 {
+        font-size: 100%;
+    }
+    
+    .list_songs #ispy_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #dou-even_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #beautiful_h1 {
+        margin-right: 27%;
+    }
+
+    .list_songs #nobody_h1, #noidea_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #takeme_h1 {
+        margin-right: 22%;
+    }
+
+}
+
+@media (max-width: 281px) {
+
+    div nav ul li a {
+        font-size: 61%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1%;
+    }
+    
+    .list_songs img {
+        width: 38%;
+        margin-left: 30% !important;
+    }
+
+    .list_songs h1 {
+        font-size: 100%;
+    }
+    
+    .list_songs #ispy_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #dou-even_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #beautiful_h1 {
+        margin-right: 27%;
+    }
+
+    .list_songs #nobody_h1, #noidea_h1 {
+        margin-right: 21%;
+    }
+
+    .list_songs #takeme_h1 {
+        margin-right: 22%;
+    }
+}
