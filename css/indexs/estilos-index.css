@@ -7,7 +7,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -143,11 +145,13 @@ div nav ul li:hover {
     background-color: blueviolet;
   }
 
-  footer {
-    font-weight: 100;
-    font-size: 12px;
+  footer #footer{
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 18px;
     text-align: center;
   }
+
   
   footer #footer {
     color: whitesmoke;
@@ -155,12 +159,12 @@ div nav ul li:hover {
 
   #footer,footer a{
     padding-top: 15px;
-    font-family: 'Raleway';
   }
 
   #footer a {
+    font-family: 'IBM Plex Sans';
     text-decoration: none;
-    color: #7979DA;
+    color: #8787f0;
   }
 
   #footer a:hover {
@@ -172,7 +176,7 @@ div nav ul li:hover {
   }
 
   #footer a:hover {
-      color: #9a9aff;
+      color: #c1c1ff;
   }
   /* CLOSE FOOTER */
 /*------------------------------------------------------MEDIA QUERIES------------------------------------------------------*/
