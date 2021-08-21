@@ -30,7 +30,7 @@ body {
 
 #playlist_public_div h5 {
     font-size: 100%;
-    text-align: center;
+    text-align: center !important;
     font-family: Lexend;
     font-weight: 200;
     color: rgb(0, 0, 0);
@@ -160,7 +160,7 @@ div nav ul li:hover {
 
 .list_songs #ispy_h1:hover {
     color: #00806a;
-    text-decoration: underline #00806a;
+    text-decoration: underline 3px #00806a;
 }
 /*--------------------------------------------------- CLOSE ISPY - Text and Images---------------------------------------------------*/
 
@@ -185,7 +185,7 @@ div nav ul li:hover {
 
 .list_songs #dou-even_h1:hover {
     color: #6485c2;
-    text-decoration: underline #6485c2;
+    text-decoration: underline 3px #6485c2;
 }
 
 /*-------------------------------------------CLOSE - do u even miss me at all? - Text and Images-------------------------------------------*/
@@ -212,7 +212,7 @@ div nav ul li:hover {
 
 .list_songs #beautiful_h1:hover {
     color: #5c79a5;
-    text-decoration: underline #5c79a5;
+    text-decoration: underline 3px #5c79a5;
 }
 /*-------------------------------------------------CLOSE Beautiful - Bazzi-------------------------------------------------*/
 
@@ -239,7 +239,7 @@ div nav ul li:hover {
 
 .list_songs #nobody_h1:hover {
     color: #5180a0;
-    text-decoration: underline #5180a0;
+    text-decoration: underline 3px#5180a0;
 }
 
 
@@ -267,7 +267,7 @@ div nav ul li:hover {
 
 #takeme_h1:hover {
     color: #e77f34;
-    text-decoration: underline #e77f34;
+    text-decoration: underline 3px #e77f34;
 }
 
 /*-------------------------------------------------CLOSE Take Me The Church - Hozier-------------------------------------------------*/
@@ -295,7 +295,7 @@ div nav ul li:hover {
 
 #noidea_h1:hover {
     color: #4e7074;
-    text-decoration: underline #4e7074;
+    text-decoration: underline 3px #4e7074;
 }
 
 /*-------------------------------------------------CLOSE No Idea - Don Toliver-------------------------------------------------*/
@@ -321,10 +321,44 @@ div nav ul li:hover {
 
 #stay_h1:hover {
     color: #4e7074;
-    text-decoration: underline #4e7074;
+    text-decoration: underline 3px #4e7074;
 }
 
 /*------------------------------CLOSE STAY-------------------------------*/
+
+#sunflower {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #19186e; 
+    box-shadow: 0px 0px 10px #807fd4;
+}
+
+#sunflower_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-right: 18%;
+    color: black;
+    float: right;
+}
+
+#sunflower_h1:hover {
+    color: #5958c7;
+    text-decoration: underline 3px #5958c7;
+}
+
+
+/* ------------------------------CLOSE SUNFLOWER - POST MALONE------------------------------ */
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 1026px) {
     
@@ -363,13 +397,17 @@ div nav ul li:hover {
         margin-top: 14%;
         margin-right: 10%;
     }
-
+    
     .list_songs #stay_h1 {
         font-size: 80%;
         margin-right: 25%;
 
     }
-    
+
+    #sunflower_h1 {
+        margin-right: 6%;
+
+    }
 }
 
 @media (max-width: 540px) {
@@ -409,6 +447,11 @@ div nav ul li:hover {
         margin-right: 10%;
     }
     
+   #sunflower_h1 {
+    font-size: 50%;
+    margin-right: 2%;
+   }      
+
 }
 
 
