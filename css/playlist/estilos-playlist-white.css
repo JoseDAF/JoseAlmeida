@@ -125,14 +125,12 @@ div nav ul li:hover {
 
 .list_songs img {
     border-radius: 10px;
-    transition-property: filter;
-    transition-duration: 200ms;
 }
-
 
 .list_songs img:hover {
     filter: brightness(80%);
 }
+
 
 /*---------------------------------------------------ISPY - TEXT AND IMAGES---------------------------------------------------*/
 
@@ -142,7 +140,12 @@ div nav ul li:hover {
     margin-left: 6%; 
     border: 3px solid #09f0c9; 
     box-shadow: 0px 0px 10px #00bd9e;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
 
+.list_songs #ispy:hover {
+    transform: rotate(-5deg);
 }
 
 
@@ -172,6 +175,12 @@ div nav ul li:hover {
     margin-left: 6%; 
     border: 3px solid #76a0ee; 
     box-shadow: 0px 0px 10px #a5bff0;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #dou-even:hover {
+    transform: rotate(5deg);
 }
 
 .list_songs #dou-even_h1 {
@@ -198,8 +207,13 @@ div nav ul li:hover {
     margin-left: 6%; 
     border: 3px solid #415d83; 
     box-shadow: 0px 0px 10px #465770;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
 }
 
+.list_songs #beautiful:hover {
+    transform: rotate(-5deg);
+}
 
 .list_songs #beautiful_h1 {
     text-align: center;
@@ -226,6 +240,12 @@ div nav ul li:hover {
     margin-left: 6%; 
     border: 3px solid #345367; 
     box-shadow: 0px 0px 10px #6eafdb;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #nobody:hover {
+    transform: rotate(5deg);
 }
 
 .list_songs #nobody_h1 {
@@ -247,16 +267,21 @@ div nav ul li:hover {
 
 /*-------------------------------------------------Take Me The Church - Hozier-------------------------------------------------*/
 
-#takeme {
+.list_songs #takeme {
     margin-top: 2%;
     float: left;
     margin-left: 6%; 
     border: 3px solid #ce712d; 
     box-shadow: 0px 0px 10px #fd8b39;
-
+    transition-property: filter, transform;
+    transition-duration: 200ms; 
 }
 
-#takeme_h1 {
+.list_songs #takeme:hover {
+    transform: rotate(-5deg);
+}
+
+.list_songs #takeme_h1 {
     text-align: center;
     text-decoration: none;
     margin-top: 10%;
@@ -265,7 +290,7 @@ div nav ul li:hover {
     float: right;
 }
 
-#takeme_h1:hover {
+.list_songs #takeme_h1:hover {
     color: #e77f34;
     text-decoration: underline 3px #e77f34;
 }
@@ -276,15 +301,21 @@ div nav ul li:hover {
 
 /*-------------------------------------------------No Idea - Don Toliver-------------------------------------------------*/
 
-#noidea {
+.list_songs #noidea {
     margin-top: 2%;
     float: left;
     margin-left: 6%; 
     border: 3px solid #73a4a9; 
     box-shadow: 0px 0px 10px #9cdbe2;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
 }
 
-#noidea_h1 {
+.list_songs #noidea:hover {
+    transform: rotate(5deg);
+}
+
+.list_songs #noidea_h1 {
     text-align: center;
     text-decoration: none;
     margin-top: 10%;
@@ -293,7 +324,7 @@ div nav ul li:hover {
     float: right;
 }
 
-#noidea_h1:hover {
+.list_songs #noidea_h1:hover {
     color: #4e7074;
     text-decoration: underline 3px #4e7074;
 }
@@ -302,15 +333,22 @@ div nav ul li:hover {
 
 /*------------------------------STAY-------------------------------------*/
 
-#stay {
+.list_songs #stay {
     margin-top: 2%;
     float: left;
     margin-left: 6%; 
     border: 3px solid #73a4a9; 
     box-shadow: 0px 0px 10px #9cdbe2;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
 }
 
-#stay_h1 {
+.list_songs #stay:hover {
+    transform: rotate(-5deg);
+}
+
+
+.list_songs #stay_h1 {
     text-align: center;
     text-decoration: none;
     margin-top: 10%;
@@ -319,22 +357,28 @@ div nav ul li:hover {
     float: right;
 }
 
-#stay_h1:hover {
+.list_songs #stay_h1:hover {
     color: #4e7074;
     text-decoration: underline 3px #4e7074;
 }
 
 /*------------------------------CLOSE STAY-------------------------------*/
 
-#sunflower {
+.list_songs #sunflower {
     margin-top: 2%;
     float: left;
     margin-left: 6%; 
     border: 3px solid #19186e; 
     box-shadow: 0px 0px 10px #807fd4;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
 }
 
-#sunflower_h1 {
+.list_songs #sunflower:hover {
+    transform: rotate(5deg);
+}
+
+.list_songs #sunflower_h1 {
     text-align: center;
     text-decoration: none;
     margin-top: 10%;
@@ -343,7 +387,7 @@ div nav ul li:hover {
     float: right;
 }
 
-#sunflower_h1:hover {
+.list_songs #sunflower_h1:hover {
     color: #5958c7;
     text-decoration: underline 3px #5958c7;
 }
@@ -351,7 +395,141 @@ div nav ul li:hover {
 
 /* ------------------------------CLOSE SUNFLOWER - POST MALONE------------------------------ */
 
+/* -------------------------------------------STAN------------------------------------------- */
 
+.list_songs #stan {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #2267ab; 
+    box-shadow: 0px 0px 10px #2879c9;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #stan:hover {
+    transform: rotate(-5deg);
+}
+
+
+
+.list_songs #stan_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-right: 30%;
+    color: black;
+    float: right;
+}
+
+
+.list_songs #stan_h1:hover {
+    color: #2267ab;
+    text-decoration: underline 3px #2267ab;
+}
+/* ----------------------------------------CLOSE STAN---------------------------------------- */
+
+/* ----------------------------------------INCREDIBLE---------------------------------------- */
+
+.list_songs #incredible {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%; 
+    border: 3px solid #e82a3d; 
+    box-shadow: 0px 0px 10px #e84a5a;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #incredible:hover {
+    transform: rotate(5deg);
+}
+
+
+
+.list_songs #incredible_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-right: 17%;
+    color: black;
+    float: right;
+}
+
+
+.list_songs #incredible_h1:hover {
+    color: #e82a3d;
+    text-decoration: underline 3px #e82a3d;
+}
+
+/* ----------------------------------------CLOSE INCREDIBLE---------------------------------------- */
+
+
+/* GOODBYE */
+
+.list_songs #goodbye {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%;
+    border: 3px solid #7889a5;
+    box-shadow: 0px 0px 10px #7889a5;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #goodbye:hover {
+    transform: rotate(-5deg);
+}
+
+.list_songs #goodbye_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-right: 19%;
+    color: black;
+    float: right;
+}
+
+.list_songs #goodbye_h1:hover {
+    color: #7889a5;
+    text-decoration: underline;
+}
+/* CLOSE GOODBYE */
+
+/* LUV */
+
+.list_songs #luv {
+    margin-top: 2%;
+    float: left;
+    margin-left: 6%;
+    border: 3px solid #211b1c;
+    box-shadow: 0px 0px 10px #31292a;
+    transition-property: filter, transform;
+    transition-duration: 200ms;
+}
+
+.list_songs #luv:hover {
+    transform: rotate(5deg);
+}
+
+.list_songs #luv_h1 {
+    text-align: center;
+    text-decoration: none;
+    margin-left: 0;
+    margin-top: 10%;
+    margin-right: 22%;
+    color: black;
+    float: right;
+}
+
+.list_songs #luv_h1:hover {
+    text-decoration: underline;
+    color: #211b1c;
+}
+/* CLOSE LUV */
 
 
 
@@ -405,8 +583,30 @@ div nav ul li:hover {
     }
 
     #sunflower_h1 {
-        margin-right: 6%;
+        font-size: 80%;
+        margin-right: 10%;
 
+    }
+    
+    .list_songs #stan_h1 {
+        margin-right: 25%;
+        font-size: 80%;
+    }
+
+    .list_songs #incredible_h1 {
+        font-size: 80%;
+        margin-right: 10%;
+    }
+
+    
+    .list_songs #goodbye_h1 {
+        margin-right: 13%;
+        font-size: 80%;
+    }
+    
+    .list_songs #luv_h1 {
+        margin-right: 18%;
+        font-size: 80%;
     }
 }
 
