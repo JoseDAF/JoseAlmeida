@@ -1,0 +1,199 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+
+
+/* BODY */
+body {
+    background-color: #363636;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+
+
+/*--------------------------------------------------------NAV--------------------------------------------------------*/
+
+div nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    transition-property: color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover a {
+    color: rgb(121, 121, 218);
+}
+
+div nav ul li {
+    margin: 15px;
+    display: inline-block;
+}
+
+div nav ul {
+    text-align: center;
+}
+
+
+div nav ul li{
+    padding: 15px 20px 15px 20px;
+    border-radius: 15px;
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+div nav ul li:hover {
+
+    background-color: #505050;
+    border-radius: 15px;
+}
+
+/* FOOTER */
+footer::selection {
+    background-color: blueviolet;
+  }
+
+  footer #footer{
+    font-family: 'IBM Plex Sans';
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  footer #footer {
+    color: whitesmoke;
+  }
+
+  #footer,footer a{
+    padding-top: 15px;
+  }
+
+  #footer a {
+    font-family: 'IBM Plex Sans';
+    text-decoration: none;
+    color: #8787f0;
+  }
+
+  #footer a:hover {
+    text-decoration: underline;
+  }
+
+  #footer a {
+      transition: color .3s;
+  }
+
+  #footer a:hover {
+      color: #c1c1ff;
+  }
+  /* CLOSE FOOTER */
+/*------------------------------------------------------MEDIA QUERIES------------------------------------------------------*/
+
+
+@media (max-width: 1025px) {    
+    div nav ul li a {
+        font-size: 160%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    }  
+}
+
+@media (max-width: 540px) {
+    div nav ul li a {
+        font-size: 100%;
+    }
+    
+    div nav ul li{
+        padding: 1% 5% 1% 5%;
+    } 
+}
+
+@media (max-width: 420px) {
+
+    .spotify-div h1 {
+        font-size: 100%;
+    }
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.9% 1% 2.9%;
+    }
+    
+
+}
+
+@media (max-width: 400px) {
+
+    div nav ul li a {
+        font-size: 90%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1% 1% 1%;
+    }
+    
+    
+
+}
+
+
+@media (max-width: 380px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% 2.2% 1% 2.2%;
+    }
+    
+
+    
+}
+
+
+@media (max-width: 330px) {
+
+    div nav ul li a {
+        font-size: 80%;
+    }
+    
+    div nav ul li{
+        padding: 1% .4% 1% .4%;
+    }
+    
+
+}
+
+@media (max-width: 281px) {
+
+    div nav ul li a {
+        font-size: 61%;
+    }
+    
+    div nav ul li{
+        padding: 1% 1%;
+    }
+    
+}
